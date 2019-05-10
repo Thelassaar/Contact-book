@@ -1,0 +1,21 @@
+{% extends "@CodersLab/newsletter_base.html.twig" %}
+
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <hr>
+    <form action="" method="post" role="form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+            <label for="surname">Surname</label>
+            <input type="surname" class="form-control" name="surname" id="surname" placeholder="Surname">
+            <label for="Description">Description</label>
+            <input type="description" class="form-control" name="description" id="description" placeholder="Description">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+    <hr>
+{% endblock %}
